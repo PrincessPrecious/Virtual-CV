@@ -6,6 +6,27 @@
   <title>Precious Portfolio</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <style>
+    /* Additional spacing just for readability improvements */
+    #cv h3 {
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
+      color: #5a2a83;
+    }
+
+    #cv p, #cv ul {
+      margin-bottom: 1.5rem;
+    }
+
+    #cv ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+    }
+  </style>
 </head>
 <body>
   <div class="hero">
@@ -29,20 +50,27 @@
         </div>
         <div class="content">
           <h1><span>Precious Masetla</span></h1>
-          <h3>An Innovative System Analyst</h3>
+          <h3>An Aspiring Innovative System Analyst</h3>
           <p>I design intelligent systems that meet user and business needs.</p>
           <div class="social-icons">
-            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#"><i class="fa-brands fa-github"></i></a>
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/precious-masetla-564162336" target="_blank" title="LinkedIn">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/PrincessPrecious" target="_blank" title="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.facebook.com/share/16KEmiiQMa/?mibextid=wwXIfr" target="_blank" title="Facebook">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/preci.ous.m?igsh=bzl6MjRjZDV1OHR4&utm_source=qr" target="_blank" title="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
           </div>
-          <a href="#" class="btn">Hire Me</a>
-        </div>
+	 <a href="#" class="btn nav-link" data-target="contact">Hire Me</a>
       </div>
     </section>
 
-<!-- About Me -->
+    <!-- About Me -->
     <section id="about" class="page-section hidden">
       <div class="content-box">
         <h2>About Me</h2>
@@ -66,13 +94,54 @@
       </div>
     </section>
 
-
     <!-- CV -->
     <section id="cv" class="page-section hidden">
       <div class="content-box">
         <h2>Curriculum Vitae</h2>
-        <p>Click below to download my full CV.</p>
-        <a href="Precious-Masetla-CV.pdf" class="btn" download>Download CV</a>
+
+        <h3>Personal Summary</h3>
+        <p><em>Strong-willed, vision-driven and eager to learn. My intention is to make my mark in the technological industry whilst becoming a better woman and team player.</em></p>
+
+        <h3>Experience</h3>
+        <ul>
+          <li><strong>July 2024:</strong> Traineeship – Dept of Cooperative Governance, Human Settlements and Traditional Affairs  
+            <br>Systems Development, ICT Infrastructure, ICT Security, Governance & Project Management</li>
+          <li><strong>July 2021:</strong> Job Shadow – Polokwane Municipality  
+            <br>Practical exposure to system development principles</li>
+        </ul>
+
+        <h3>Education</h3>
+        <ul>
+          <li><strong>2023–2025 (Ongoing):</strong> BSc in Information Technology – North-West University  
+            <br>Merit bursary (2024), Current average: 74%</li>
+          <li><strong>May–Aug 2024:</strong> Self-Mastery Toolkit – NWU Business School (Distinction)</li>
+          <li><strong>May 2024:</strong> Certificate – Ethical Hacking & Cybersecurity, Great Learning</li>
+          <li><strong>2022:</strong> Matriculated – PEPPS College</li>
+        </ul>
+
+        <h3>Skills</h3>
+        <ul>
+          <li>Strong knowledge in systems development</li>
+          <li>Effective written and verbal communication</li>
+          <li>Excellent attention to detail and analytical thinking</li>
+          <li>Team collaboration and leadership skills</li>
+          <li>Problem-solving and critical thinking mindset</li>
+        </ul>
+
+        <h3>Activities & Achievements</h3>
+        <ul>
+          <li>2× Provincial Hockey Player (2018 & 2021)</li>
+          <li>Female Hockey Player of the Year (2021)</li>
+          <li>Leave a legacy project – Dinki Residence (2024)</li>
+          <li>Student overseer – Christian Revival Church, Potch</li>
+          <li>Marker for Systems Analysis & Design (Year 2)</li>
+          <li>Multichoice Bursary Recipient</li>
+          <li>Undergoing Hockey Umpiring Course</li>
+          <li>Pageant title holder</li>
+        </ul>
+
+        <a href="Precious%20Masetla%20Curriculum%20Vitae.pdf" class="btn" download>Download Full CV (PDF)</a>        
+	<br /><br />
       </div>
     </section>
 
@@ -81,9 +150,9 @@
       <div class="content-box">
         <h2>Projects</h2>
         <ul>
-          <li><strong>Project A:</strong> Inventory Management System for small retail businesses.</li>
-          <li><strong>Project B:</strong> Online appointment booking system with notification integration.</li>
-          <li><strong>Project C:</strong> School timetable scheduler using algorithmic optimization.</li>
+          <li><strong>Project A:</strong> Part of team that constructed a Hotel Management System.</li>
+          <li><strong>Project B:</strong> Part of a team that constructed 9 Seasons Management System.</li>
+          <li><strong>Project C:</strong> Built my own Virtual CV(Portfolio Website) </li>
         </ul>
       </div>
     </section>
@@ -91,14 +160,12 @@
     <!-- Skills -->
     <section id="skills" class="page-section hidden">
       <div class="content-box">
-        <h2>Skills</h2>
+        <h2>Skills and Language Proficiency</h2>
         <ul>
-          <li>System Analysis & Design</li>
-          <li>UML & Flowcharts</li>
-          <li>SQL & Database Design</li>
-          <li>HTML, CSS, JavaScript, C#</li>
-          <li>WebSocket Communication</li>
-          <li>Agile & SDLC Processes</li>
+          <li>Java ★★</li>
+          <li>Python ★★</li>
+          <li>SQL & Database Design ★★★★</li>
+          <li>HTML, C# ★★★</li>
         </ul>
       </div>
     </section>
@@ -109,9 +176,9 @@
         <h2>Contact Me</h2>
         <p>You can reach me via the following channels:</p>
         <ul>
-          <li>Email: precious@example.com</li>
-          <li>Phone: +27 600 000 000</li>
-          <li>LinkedIn: <a href="#">linkedin.com/in/preciousmasetla</a></li>
+          <li>Email: <a href="mailto:precious10masetla@gmail.com">precious10masetla@gmail.com</a></li>
+          <li>Phone: 084 248 8835</li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/precious-masetla-564162336" target="_blank">linkedin.com/in/precious-masetla-564162336</a></li>
         </ul>
       </div>
     </section>
